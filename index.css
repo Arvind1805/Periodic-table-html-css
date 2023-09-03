@@ -1,0 +1,97 @@
+b{
+    font-size: 20px;
+}
+.nonmetal{
+    border:solid 2px rgb(9, 9, 232);
+    background-color: rgba(0, 191, 255, 0.844);
+    border-color: 0 0 50px rgb(9,9,230);
+}
+.noblegas{
+    border: solid 2px rgba(79, 30, 79, 0.99);
+    background-color: rgb(190, 48, 190);
+}
+.halogen{
+    border: solid 2px rgb(175, 20, 192);
+    background-color: rgb(234, 148, 242)
+}
+.alkali{
+    border: solid 2px rgb(255, 0, 0);
+    background-color: rgb(243, 61, 61);
+}
+.alkaliearth{
+    border: solid 2px orange;
+    background-color: rgb(252, 164, 1);
+}
+.transition{
+    border: solid 2px yellow;
+    background-color: rgb(249, 252, 44);
+}
+.semi{
+    border: solid 2px rgba(151, 255, 47, 0.864);
+    background-color: rgba(146, 239,200, 0.54);
+}
+.basic{
+    border: solid 2px rgb(3, 125, 3);
+    background-color: rgb(67, 111, 67);
+}
+.lanthanide{
+    border: solid 2px rgb(61, 181, 61);
+    background-color: rgb(53, 204, 55);
+}
+.actinide{
+    border: solid 2px rgb(204, 69, 69);
+    background-color: rgb(200, 86, 86);
+}
+td:hover{
+    transform: scale(1.2);
+    border-radius: 8%;
+    border-color: beige;
+    background-image: linear-gradient(to bottom left);
+}
+.li{
+    color: black;
+    text-decoration: none;
+}
+.mar{
+    box-shadow: 0 0 50px aqua inset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 15px;
+    border-radius: 20px;
+    border-style:ridge;
+    text-shadow: 0 0 50px greenyellow;
+    display: flex;
+    justify-items: auto;
+}
+.mar > strong{
+    font-size:50px;
+}
+strong{
+    text-shadow: 0 0 50px rgb(89, 243, 89),
+                0 0 100px rgb(236, 183, 84),
+                0 0 150px aqua
+                0 0 200px aqua;
+}
+.diff{
+    font-size: 25px;
+    font-family:'Times New Roman';
+    font-style:initial;
+    border:none;
+    text-decoration: none;
+}
+body > table{
+    padding: 5px;
+}
+body{
+    display: contents;
+}
+td{
+    border-radius: 8%;
+}
+span{
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 5px;
+    text-shadow: 0 0 50px greenyellow;
+    font-weight: bold;
+}
